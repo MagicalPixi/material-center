@@ -7,6 +7,7 @@ var express = require('express'),
 
 mongoose.connect(config.db);
 var db = mongoose.connection;
+console.log("db --> " + config.db);
 db.on('error', function () {
   throw new Error('unable to connect to database at ' + config.db);
 });

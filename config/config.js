@@ -9,7 +9,17 @@ var config = {
       name: 'material-center'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/material-center-development'
+    db: 'mongodb://localhost/material-center-development',
+    cloud: {
+      qiniu:{
+        AccessKey: 'eS2ZB5WI4RajUrScznPhswSCAnsSj2tVKj67rPYO',
+        SecretKey: 'bmTQKTlwf_685UAJ7SRzNkl0mc4UywOWwle4U7tu',
+        bucket:'material-center-dev'
+      },
+      upCloud:{
+
+      }
+    }
   },
 
   test: {
@@ -18,7 +28,17 @@ var config = {
       name: 'material-center'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/material-center-test'
+    db: 'mongodb://localhost/material-center-test',
+    cloud: {
+      qiniu:{
+        AccessKey: 'eS2ZB5WI4RajUrScznPhswSCAnsSj2tVKj67rPYO',
+        SecretKey: 'bmTQKTlwf_685UAJ7SRzNkl0mc4UywOWwle4U7tu',
+        bucket:'material-center-dev'
+      },
+      upCloud:{
+
+      }
+    }
   },
 
   production: {
@@ -27,7 +47,17 @@ var config = {
       name: 'material-center'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/material-center-production'
+    db: 'mongodb://localhost/material-center-production',
+    cloud: {
+      qiniu:{
+        AccessKey: 'eS2ZB5WI4RajUrScznPhswSCAnsSj2tVKj67rPYO',
+        SecretKey: 'bmTQKTlwf_685UAJ7SRzNkl0mc4UywOWwle4U7tu',
+        bucket:'material-center-dev'
+      },
+      upCloud:{
+
+      }
+    }
   }
 };
 
