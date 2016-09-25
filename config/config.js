@@ -15,9 +15,6 @@ var config = {
         AccessKey: 'eS2ZB5WI4RajUrScznPhswSCAnsSj2tVKj67rPYO',
         SecretKey: 'bmTQKTlwf_685UAJ7SRzNkl0mc4UywOWwle4U7tu',
         bucket:'material-center-dev'
-      },
-      upCloud:{
-
       }
     }
   },
@@ -34,9 +31,6 @@ var config = {
         AccessKey: 'eS2ZB5WI4RajUrScznPhswSCAnsSj2tVKj67rPYO',
         SecretKey: 'bmTQKTlwf_685UAJ7SRzNkl0mc4UywOWwle4U7tu',
         bucket:'material-center-dev'
-      },
-      upCloud:{
-
       }
     }
   },
@@ -53,9 +47,6 @@ var config = {
         AccessKey: 'eS2ZB5WI4RajUrScznPhswSCAnsSj2tVKj67rPYO',
         SecretKey: 'bmTQKTlwf_685UAJ7SRzNkl0mc4UywOWwle4U7tu',
         bucket:'material-center-dev'
-      },
-      upCloud:{
-
       }
     }
   }
